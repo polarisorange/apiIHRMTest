@@ -1,0 +1,12 @@
+2020-01-06 10:24:13,685 INFO [root] [__init__.py(<module>:6)] - test日志器能不能正常工作
+2020-01-06 10:24:13,995 INFO [root] [login.py(test_login:32)] - 登录成功接口返回数据为：{'message': '操作成功！', 'code': 10000, 'data': 'e5235097-8167-4594-8e93-f8ca3abedbc6', 'success': True}
+2020-01-06 10:24:13,995 INFO [root] [login.py(test_login:39)] - 保存的令牌是：{'Authorization': 'Bearer e5235097-8167-4594-8e93-f8ca3abedbc6', 'Content-Type': 'application/json'}
+2020-01-06 10:24:14,045 INFO [root] [test_employee.py(test01_add_emp:30)] - 添加员工返回的数据为{'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999, 'data': None, 'success': False}
+2020-01-06 10:24:14,085 INFO [root] [test_employee.py(test02_query_emp:44)] - 查询员工接口返回的数据为{'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999, 'data': None, 'success': False}
+2020-01-06 10:24:14,125 INFO [root] [test_employee.py(test03_modify_emp:53)] - 修改员工接口返回的数据为{'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999, 'data': None, 'success': False}
+2020-01-06 10:25:04,245 INFO [root] [__init__.py(<module>:6)] - test日志器能不能正常工作
+2020-01-06 10:25:04,517 INFO [root] [login.py(test_login:32)] - 登录成功接口返回数据为：{'data': '52002b12-4650-4b26-900b-8eaff7c3bd28', 'message': '操作成功！', 'code': 10000, 'success': True}
+2020-01-06 10:25:04,517 INFO [root] [login.py(test_login:39)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 52002b12-4650-4b26-900b-8eaff7c3bd28'}
+2020-01-06 10:25:04,557 INFO [root] [test_employee.py(test01_add_emp:30)] - 添加员工返回的数据为{'data': {'id': '1214009965303648256'}, 'message': '操作成功！', 'code': 10000, 'success': True}
+2020-01-06 10:25:04,597 INFO [root] [test_employee.py(test02_query_emp:44)] - 查询员工接口返回的数据为{'data': {'staffPhoto': None, 'username': '哈士奇4443', 'companyId': '1', 'enableState': 1, 'companyName': '传智播客', 'password': 'cdd801f34dceaff0ad7690b6d0211a37', 'workingCity': None, 'departmentName': '测试', 'createTime': None, 'timeOfEntry': '2020-01-04T00:00:00.000+0000', 'formOfEmployment': 1, 'correctionTime': None, 'departmentId': '1210411411066695680', 'inServiceStatus': None, 'workNumber': '0005', 'id': '1214009965303648256', 'mobile': '3231236666', 'roleIds': [], 'formOfManagement': None}, 'message': '操作成功！', 'code': 10000, 'success': True}
+2020-01-06 10:25:04,647 INFO [root] [test_employee.py(test03_modify_emp:53)] - 修改员工接口返回的数据为{'data': {'id': '1214009965303648256'}, 'message': '操作成功！', 'code': 10000, 'success': True}
