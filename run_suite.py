@@ -13,7 +13,8 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(Login))
 suite.addTest(unittest.makeSuite(TestIHRMEmp))
 # 使用HTMLTestRunner执行测试套件，生成测试报告
-report_path = app.base_dir + "/report/ihrm{}.html".format(time.strftime('%Y%m%d_%H%M%S'))
+# report_path = app.base_dir + "/report/ihrm{}.html".format(time.strftime('%Y%m%d_%H%M%S'))
+report_path = app.base_dir + "/report/ihrm.html"
 with open(report_path, mode='wb') as f:
     # 实例化HTMLTestrunner
     runner = HTMLTestRunner(f, verbosity=1, title="IHRM人力资源接口测试", description="v1.0.0")
